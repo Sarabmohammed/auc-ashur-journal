@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>مجلة جامعة أشور للعلوم الاجتماعية والإنسانية - الصفحة الرئيسية</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      direction: rtl; 
+      font-family: "Arial", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    /* رأس الصفحة */
+    header {
+      display: flex;
+      justify-content: space-between; /* توزيع العناصر بين اليمين واليسار */
+      align-items: center;           /* محاذاة عمودية في المنتصف */
+      background-color: #0066cc;
+      color: white;
+      padding: 10px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .logo {
+      width: 80px;
+      height: auto;
+    }
+    /* شريط التنقل */
+    nav {
+      background-color: #004080;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #0055aa;
+    }
+    /* المحتوى */
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    main h2 {
+      color: #0066cc;
+    }
+    /* تذييل */
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- رأس الصفحة -->
+  <header>
+    <!-- عنوان على اليسار -->
+    <h1>مجلة جامعة أشور للعلوم الاجتماعية والإنسانية</h1>
+    <!-- شعار على اليمين -->
+    <img src="C:\Users\hp\OneDrive\Pictures\logo.png" alt="شعار المجلة" class="logo">
+  </header>
+
+  <!-- شريط التنقل -->
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="editorial-board.html">هيئة التحرير</a>
+    <a href="language-reviewers.html">المراجعة اللغوية</a>
+    <a href="publication-conditions.html">شروط النشر</a>
+    <a href="contact.html">اتصل بنا</a>
+    <a href="submit-paper.html">إرسال البحث</a>
+  </nav>
+
+  <!-- المحتوى الرئيسي -->
+  <main>
+    <h2>الصفحة الرئيسية</h2>
+    <p>
+      أهلاً بكم في الصفحة الرئيسية لمجلة جامعة أشور للعلوم الاجتماعية والإنسانية.
+      هنا يمكنك الاطلاع على آخر الإصدارات والأخبار.
+    </p>
+  </main>
+
+  <!-- التذييل -->
+  <footer>
+    <p>© 2025 مجلة جامعة أشور. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
